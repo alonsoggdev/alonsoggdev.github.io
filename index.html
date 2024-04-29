@@ -9,7 +9,21 @@
   </head>
   <body>
     <div id="app">
-      <div id = 'ui'></div>
+      <div id = 'ui'>
+        <p class = 'note'>
+          Pulsa en el suelo para moverte
+        </p>
+        <div id = 'textbox-container' style = 'display: none'>
+          <div id = 'textbox'>
+            <p id = 'dialogue' class = 'ui-text'>
+
+            </p>
+            <div class = 'btn-container'>
+              <button id = 'close' class = 'ui-close-btn'></button>
+            </div>
+          </div>
+        </div>
+      </div>
       <canvas id = 'game'></canvas>
     </div>
     <script type="module" src="./src/main.js"></script>
