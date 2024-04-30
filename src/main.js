@@ -1,3 +1,9 @@
+//TODO: 1- Menu de pausa que lleve a la web portfolio y al CV
+//TODO: 2- Ataque a melé
+//TODO: 3- Easter egg al romper una pared
+//TODO: 4- Reloj con la hora actual
+//TODO: 5- SFX al colisionar con algún elemento, al clicar para moverse y al pulsar cualquier boton
+
 import { dialogueData, scaleFactor } from "./constants";
 import { k } from "./kaboomCtx";
 import { displayDialogue, setCamScale } from "./utils";
